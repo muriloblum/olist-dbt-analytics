@@ -360,24 +360,24 @@ def index() -> rx.Component:
                 # ============================================================
                 rx.grid(
                     # CFO
-                    kpi_card("Recognized Revenue", State.kpi_revenue,
+                    kpi_card("CFO — Recognized Revenue", State.kpi_revenue,
                              "2017–2018 · non-canceled orders"),
-                    kpi_card("Avg Order Value", State.kpi_aov,
+                    kpi_card("CFO — Avg Order Value", State.kpi_aov,
                              f"across {State.kpi_orders} orders"),
                     # COO
-                    kpi_card("On-Time Delivery Rate", State.kpi_on_time,
+                    kpi_card("COO — On-Time Delivery Rate", State.kpi_on_time,
                              "delivered orders only", POSITIVE),
-                    kpi_card("Avg Delivery Time", State.kpi_avg_delivery,
+                    kpi_card("COO — Avg Delivery Time", State.kpi_avg_delivery,
                              "purchase → customer", POSITIVE),
                     # Head of CX
-                    kpi_card("Avg Review Score", State.kpi_avg_score,
+                    kpi_card("Head of CX — Avg Review Score", State.kpi_avg_score,
                              "1–5 scale", ACCENT2),
-                    kpi_card("CSAT Rate", State.kpi_csat,
+                    kpi_card("Head of CX — CSAT Rate", State.kpi_csat,
                              "% of reviews scoring 4 or 5", ACCENT2),
                     # Head of Marketplace
-                    kpi_card("Top Seller GMV", State.kpi_top_seller_rev,
+                    kpi_card("Head of Marketplace — Top Seller GMV", State.kpi_top_seller_rev,
                              "single seller, all-time", NEUTRAL),
-                    kpi_card("Active Sellers", "3,095",
+                    kpi_card("Head of Marketplace — Active Sellers", "3,095",
                              "with at least 1 delivered order", NEUTRAL),
                     columns="4",
                     spacing="3",
@@ -389,7 +389,7 @@ def index() -> rx.Component:
                 # ============================================================
                 chart_card(
                     section_header(
-                        "Monthly Recognized Revenue",
+                        "CFO — Monthly Recognized Revenue",
                         "Revenue from non-canceled orders. Excludes 2016 (incomplete) and the current partial month.",
                     ),
                     rx.recharts.area_chart(
@@ -418,7 +418,7 @@ def index() -> rx.Component:
                     # COO — on-time % by month (bar)
                     chart_card(
                         section_header(
-                            "On-Time Delivery Rate by Month (%)",
+                            "COO — On-Time Delivery Rate by Month (%)",
                             "Percentage of delivered orders reaching the customer on or before the estimated date.",
                         ),
                         rx.recharts.bar_chart(
@@ -440,7 +440,7 @@ def index() -> rx.Component:
                     # Head of CX — avg review score by month (line)
                     chart_card(
                         section_header(
-                            "Monthly Avg Review Score",
+                            "Head of CX — Monthly Avg Review Score",
                             "Average customer satisfaction score (1–5) per month. Spikes in late 2018 reflect low review volume.",
                         ),
                         rx.recharts.line_chart(
@@ -470,7 +470,7 @@ def index() -> rx.Component:
                 # ============================================================
                 chart_card(
                     section_header(
-                        "Top 10 Sellers by Revenue",
+                        "Head of Marketplace — Top 10 Sellers by Revenue",
                         "Total item revenue across all delivered orders. Seller IDs truncated for readability.",
                     ),
                     rx.recharts.bar_chart(
