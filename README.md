@@ -95,7 +95,7 @@ Done. PASS=20 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=20   # dbt test
 ### Launch the Dashboard
 
 ```bash
-cd ../reflex_app
+cd ../reflex_volis_dashboard
 reflex run
 ```
 
@@ -429,7 +429,7 @@ The Reflex app connects to the DuckDB file produced by dbt and reads the two mar
 ```python
 import duckdb
 
-DB_PATH = "db/volis.duckdb"
+DB_PATH = "db/olist.duckdb"
 
 def query(sql: str):
     return duckdb.connect(DB_PATH, read_only=True).execute(sql).df()
