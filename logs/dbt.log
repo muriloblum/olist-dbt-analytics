@@ -1,0 +1,76 @@
+[0m18:06:09.502951 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262287CA420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262287CB2C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002622A438B30>]}
+
+
+============================== 18:06:09.507526 | 11bfbc60-dcb3-4ba3-ba54-e4617a4ebd2d ==============================
+[0m18:06:09.507526 [info ] [MainThread]: Running with dbt=1.11.8
+[0m18:06:09.507526 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\murilo.blum\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt init volis_project', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:06:09.542843 [debug] [MainThread]: Starter project path: C:\Users\murilo.blum\AppData\Roaming\Python\Python312\site-packages\dbt\include\starter_project
+[0m18:06:09.654379 [info ] [MainThread]: 
+Your new dbt project "volis_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:06:09.654379 [info ] [MainThread]: Setting up your profile.
+[0m18:07:46.107568 [debug] [MainThread]: Command `dbt init` succeeded at 18:07:46.107568 after 96.85 seconds
+[0m18:07:46.107568 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262292FD280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002622A4DC770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002622A4CFEC0>]}
+[0m18:07:46.107568 [debug] [MainThread]: Flushing usage events
+[0m18:07:47.321026 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:08:21.043248 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F256B2AE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F25C2B680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F25C28860>]}
+
+
+============================== 18:08:21.043248 | 665c81d1-fffb-4bd8-8342-68d50ce99b00 ==============================
+[0m18:08:21.043248 [info ] [MainThread]: Running with dbt=1.11.8
+[0m18:08:21.043248 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\murilo.blum\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init dbt_volis_project', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:08:21.069022 [debug] [MainThread]: Starter project path: C:\Users\murilo.blum\AppData\Roaming\Python\Python312\site-packages\dbt\include\starter_project
+[0m18:08:21.125064 [info ] [MainThread]: 
+Your new dbt project "dbt_volis_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:08:21.126204 [info ] [MainThread]: Setting up your profile.
+[0m18:15:42.523064 [debug] [MainThread]: Command `dbt init` succeeded at 18:15:42.523064 after 441.72 seconds
+[0m18:15:42.523064 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F27504EC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F25762C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F25762CC0>]}
+[0m18:15:42.524131 [debug] [MainThread]: Flushing usage events
+[0m18:15:43.643379 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:15:49.474782 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDE09AF950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDE1E14770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDE1E17020>]}
+
+
+============================== 18:15:49.482828 | 3a90ce84-4df7-425c-b720-6aa1e0cc5f8d ==============================
+[0m18:15:49.482828 [info ] [MainThread]: Running with dbt=1.11.8
+[0m18:15:49.483781 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\murilo.blum\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:15:49.494331 [info ] [MainThread]: dbt version: 1.11.8
+[0m18:15:49.494331 [info ] [MainThread]: python version: 3.12.10
+[0m18:15:49.494331 [info ] [MainThread]: python path: C:\Program Files\Python312\python.exe
+[0m18:15:49.494331 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m18:15:49.594750 [info ] [MainThread]: Using profiles dir at C:\Users\murilo.blum\.dbt
+[0m18:15:49.594750 [info ] [MainThread]: Using profiles.yml file at C:\Users\murilo.blum\.dbt\profiles.yml
+[0m18:15:49.594750 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\murilo.blum\Documents\projects\volis\dbt_project.yml
+[0m18:15:49.594750 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m18:15:49.594750 [debug] [MainThread]: Command `dbt debug` failed at 18:15:49.594750 after 0.43 seconds
+[0m18:15:49.594750 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDE2F61070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDE2B7D220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDE46B4230>]}
+[0m18:15:49.594750 [debug] [MainThread]: Flushing usage events
+[0m18:15:50.647892 [debug] [MainThread]: An error was encountered while trying to flush usage events

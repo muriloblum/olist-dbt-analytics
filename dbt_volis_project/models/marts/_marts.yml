@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: mart_orders_wide
+    description: "wide table for orders analysis. grain is one row per order."
+    columns:
+      - name: order_id
+        description: "unique identifier for the order"
+        tests:
+          - unique
+          - not_null
+      - name: recognized_revenue
+        description: "total payment value for non-canceled orders"
+
+  - name: mart_sellers_wide
+    description: "wide table for seller performance. grain is one row per seller."
+    columns:
+      - name: seller_id
+        description: "unique identifier for the seller"
+        tests:
+          - unique
+          - not_null
+      - name: total_revenue
+        description: "sum of item prices for delivered orders"

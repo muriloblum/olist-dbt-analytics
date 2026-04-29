@@ -1,0 +1,19 @@
+# === Ambientes Virtuais e Python ===
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# === Reflex (Pasta Renomeada) ===
+reflex_volis_dashboards/.web/
+reflex_volis_dashboards/rxconfig.py.bak
+
+# === dbt ===
+dbt_volis_project/target/
+dbt_volis_project/logs/
+dbt_volis_project/dbt_packages/
+
+# === Bancos de Dados (CRÍTICO) ===
+*.duckdb
+*.duckdb.wal
+db/

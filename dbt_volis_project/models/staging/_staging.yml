@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: stg_olist_orders
+    description: "cleaned orders data"
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_olist_customers
+    description: "standardized customer information"
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_olist_sellers
+    description: "standardized seller information"
+    columns:
+      - name: seller_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_olist_geolocation
+    description: "deduplicated geolocation map"
+    columns:
+      - name: zip_code_prefix
+        tests:
+          - unique
+          - not_null
