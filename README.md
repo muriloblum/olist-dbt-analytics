@@ -3,6 +3,8 @@
 A local analytics platform built for Volis, a Brazilian e-commerce logistics company.
 This project transforms raw transactional data from the Olist dataset into a clean, tested data warehouse — and serves it through a modern executive dashboard built with Reflex.
 
+> 🎥 Executive Pitch: [Click here to watch the 5-minute video presentation](https://drive.google.com/file/d/1bnot_8LtphngXnkoK-aJ6RwokjQkYfpZ/view?usp=sharing)
+
 ---
 
 ## Table of Contents
